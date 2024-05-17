@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('background.png');
+    background-size: cover; /* Ensure the background image covers the whole area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the container */
+    color: #494949;
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for spacing */
+
+}
+
+h3 {
+    margin: 0; /* Remove default margin */
+    padding: 2px; /* Add padding for spacing */
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+  }
+
